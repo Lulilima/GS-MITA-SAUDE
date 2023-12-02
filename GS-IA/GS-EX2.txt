@@ -1,0 +1,15 @@
+Exercício 2 DISRUPTIVE ARCHITECTURES: IOT, IOB & IA
+
+2TDSPS
+
+96409 - Leonardo Guimarães de Lima Marques
+97385 - José Carlos da Silva
+97569 - Maria Luiza de Goveia Lima
+96906 - Mariana Marques Sabio
+96881 - Vinícius de Abreu Pena
+
+
+LINK PARA ROBOFLOW UNIVERSE 
+
+https://universe.roboflow.com/gs-fiap/gs-ia-mita
+
