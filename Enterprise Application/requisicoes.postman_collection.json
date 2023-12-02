@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "121e9dff-7170-4ab4-b561-f2bdf35521dc",
+		"name": "Requisições",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26981347"
+	},
+	"item": [
+		{
+			"name": "Post Crianca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"cpf_crian\": \"32333333321\",\n\"nome_crian\": \"Carla\",\n\"condicoes_preexistentes_crian\": \"Nenhuma\",\n\"comunidade_crian\": \"Guarani\",\n\"etinia_crian\": \"Índigena\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.226.66.248:8080/criancas",
+					"protocol": "http",
+					"host": [
+						"20",
+						"226",
+						"66",
+						"248"
+					],
+					"port": "8080",
+					"path": [
+						"criancas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Crianca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.226.66.248:8080/criancas/32333333321",
+					"protocol": "http",
+					"host": [
+						"20",
+						"226",
+						"66",
+						"248"
+					],
+					"port": "8080",
+					"path": [
+						"criancas",
+						"32333333321"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
